@@ -48,18 +48,15 @@ Le serveur sert le build React depuis `dist/` et écoute par défaut sur `http:/
 - **Base de données** : MySQL
 - **Email** : Nodemailer (SMTP)
 
-## Déploiement sur GitHub
+## Déploiement
 
-Voir [GITHUB_SETUP.md](GITHUB_SETUP.md) pour les instructions complètes.
-
-Commandes rapides:
+Pour déployer sur GitHub, initialiser un repository Git et pousser le code.
 
 ```bash
 git init
 git add .
-git commit -m "Initial commit: Incisal P.D.L React/Node"
-git remote add origin https://github.com/USERNAME/REPO_NAME.git
-git branch -M main
+git commit -m "Initial commit"
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 git push -u origin main
 ```
 
