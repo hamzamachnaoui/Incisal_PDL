@@ -340,7 +340,7 @@ function App() {
 
       <footer className="footer">
         <img src="/img/logo.png" alt="Incisal P.D.L" />
-        <p>SARL P.D.L, Prothèse Dentaire Ligérienne. Tous les droits sont réservés.</p>
+        <p>© {new Date().getFullYear()} SARL P.D.L, Prothèse Dentaire Ligérienne. Tous les droits sont réservés.</p>
       </footer>
     </>
   );
