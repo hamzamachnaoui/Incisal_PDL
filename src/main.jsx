@@ -1,4 +1,4 @@
-import React from 'react';
+rt React from 'react';
 import { createRoot } from 'react-dom/client';
 import {
   BadgeCheck,
